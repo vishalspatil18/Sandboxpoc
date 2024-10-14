@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "data-eventhub",
+      "connection": "EVENTHUB_CONNECTION_STRING"
+    }
+  ]
+}
