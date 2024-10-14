@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-data-project"
-  location = "East US"
+  location = "Germany West Central"
 }
 
 resource "azurerm_storage_account" "storage" {
